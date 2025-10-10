@@ -10,9 +10,9 @@ import geminiResponse from "./gemini.js"
 
 
 const app=express()
-const FRONTEND_URL = "https://virtual-assistance-frontend1.vercel.app/";
+const FRONTEND_URL = "https://virtual-assistance-frontend1.vercel.app";
 app.use(cors({
-    // Ab yeh live Vercel URL ko bhi accept karega
+    
     origin: FRONTEND_URL, 
     credentials:true
 }))
